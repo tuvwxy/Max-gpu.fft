@@ -1,7 +1,7 @@
 /*
  *  gpu.fft~.c
  *
- *  Copyright 2010 Toshiro Yamada. All rights reserved.
+ *  Copyright (C) 2010 Toshiro Yamada. All rights reserved.
  */
 
 #include "ext.h"

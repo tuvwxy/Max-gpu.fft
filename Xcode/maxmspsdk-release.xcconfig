@@ -15,7 +15,7 @@
 // Name & Version & Copyright
 PRODUCT_NAME = $(TARGET_NAME)
 CURRENT_PRODUCT_VERSION = 
-COPYRIGHT = "Copyright © 2010, University of California, San Diego"
+COPYRIGHT = Copyright © 2010, University of California, San Diego
 
 
 // Paths
@@ -23,7 +23,7 @@ FRAMEWORK_SEARCH_PATHS = /Developer/Headers/FlatCarbon /Library/Frameworks/MaxAP
 HEADER_SEARCH_PATHS = /Library/Frameworks/MaxAPI.framework/Headers /Library/Frameworks/MaxAudioAPI.framework/Headers 
 DSTROOT = $(PROJECT_DIR) //$(SRCROOT)
 // (This next path is relative to DSTROOT)
-INSTALL_PATH = /Debug
+INSTALL_PATH = /../MaxPatches
 
 
 // Special Files
@@ -37,14 +37,13 @@ ARCHS = i386
 VALID_ARCHS = i386
 SDKROOT = //macosx10.5
 GCC_VERSION = 4.0
-GCC_PREPROCESSOR_DEFINITIONS = DEBUG
 MACOSX_DEPLOYMENT_TARGET = 10.4
 
-COPY_PHASE_STRIP = NO
+COPY_PHASE_STRIP = YES
 PREBINDING = YES
 
-GCC_GENERATE_DEBUGGING_SYMBOLS = YES
-GCC_OPTIMIZATION_LEVEL = 0
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+GCC_OPTIMIZATION_LEVEL = s
 
 // Static Configuration (don't change these)
 WRAPPER_EXTENSION = mxo;

@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		38B4618912F28AF1006C84EC /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 38B4619412F28B1A006C84EC /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				38B4618F12F28AF7006C84EC /* PBXTargetDependency */,
+				38B4618D12F28AF7006C84EC /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		382C5CAF10B5F51A0081E97D /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C5C2D10B5F1CF0081E97D /* MaxAPI.framework */; };
+		3833EB7311C56B7F00478CA2 /* gpu.fft~.c in Sources */ = {isa = PBXBuildFile; fileRef = 38A0A16F10B5FD3D00E4CF62 /* gpu.fft~.c */; };
+		38A0A17010B5FD3D00E4CF62 /* gpu.fft~.c in Sources */ = {isa = PBXBuildFile; fileRef = 38A0A16F10B5FD3D00E4CF62 /* gpu.fft~.c */; };
+		38A0A17410B5FD5700E4CF62 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C5C2E10B5F1CF0081E97D /* MaxAudioAPI.framework */; };
+		38E11C9A11C2B8C700263771 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C5C2E10B5F1CF0081E97D /* MaxAudioAPI.framework */; };
+		38E11C9B11C2B8C700263771 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 382C5C2D10B5F1CF0081E97D /* MaxAPI.framework */; };
+		38E11D2011C2D35C00263771 /* fft_execute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1C11C2D35C00263771 /* fft_execute.cpp */; };
+		38E11D2111C2D35C00263771 /* fft_kernelstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1E11C2D35C00263771 /* fft_kernelstring.cpp */; };
+		38E11D2211C2D35C00263771 /* fft_setup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1F11C2D35C00263771 /* fft_setup.cpp */; };
+		38E11D2311C2D35C00263771 /* fft_execute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1C11C2D35C00263771 /* fft_execute.cpp */; };
+		38E11D2411C2D35C00263771 /* fft_kernelstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1E11C2D35C00263771 /* fft_kernelstring.cpp */; };
+		38E11D2511C2D35C00263771 /* fft_setup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E11D1F11C2D35C00263771 /* fft_setup.cpp */; };
+		38E11D3811C2D77000263771 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E11D3711C2D77000263771 /* OpenCL.framework */; };
+		38E11D3911C2D77000263771 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E11D3711C2D77000263771 /* OpenCL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B4618C12F28AF7006C84EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 382C5C0810B5F11A0081E97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E11C9511C2B8C700263771 /* gpu.ifft~ */;
+			remoteInfo = "gpu.ifft~";
+		};
+		38B4618E12F28AF7006C84EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 382C5C0810B5F11A0081E97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 382C5C3610B5F1D70081E97D /* gpu.fft~ */;
+			remoteInfo = "gpu.fft~";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "maxmspsdk-debug.xcconfig"; sourceTree = "<group>"; };
+		382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "maxmspsdk-release.xcconfig"; sourceTree = "<group>"; };
+		382C5C2D10B5F1CF0081E97D /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = /Library/Frameworks/MaxAPI.framework; sourceTree = "<absolute>"; };
+		382C5C2E10B5F1CF0081E97D /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = /Library/Frameworks/MaxAudioAPI.framework; sourceTree = "<absolute>"; };
+		382C5C3710B5F1D70081E97D /* gpu.fft~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gpu.fft~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A0A16F10B5FD3D00E4CF62 /* gpu.fft~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "gpu.fft~.c"; sourceTree = "<group>"; };
+		38E11C9211C2B86800263771 /* gpu.ifft~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "gpu.ifft~.c"; sourceTree = "<group>"; };
+		38E11C9F11C2B8C700263771 /* gpu.ifft~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gpu.ifft~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E11D1A11C2D35C00263771 /* clFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clFFT.h; sourceTree = "<group>"; };
+		38E11D1B11C2D35C00263771 /* fft_base_kernels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft_base_kernels.h; sourceTree = "<group>"; };
+		38E11D1C11C2D35C00263771 /* fft_execute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_execute.cpp; sourceTree = "<group>"; };
+		38E11D1D11C2D35C00263771 /* fft_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft_internal.h; sourceTree = "<group>"; };
+		38E11D1E11C2D35C00263771 /* fft_kernelstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_kernelstring.cpp; sourceTree = "<group>"; };
+		38E11D1F11C2D35C00263771 /* fft_setup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft_setup.cpp; sourceTree = "<group>"; };
+		38E11D3711C2D77000263771 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = /System/Library/Frameworks/OpenCL.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		382C5C3510B5F1D70081E97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A0A17410B5FD5700E4CF62 /* MaxAudioAPI.framework in Frameworks */,
+				382C5CAF10B5F51A0081E97D /* MaxAPI.framework in Frameworks */,
+				38E11D3911C2D77000263771 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E11C9911C2B8C700263771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E11C9A11C2B8C700263771 /* MaxAudioAPI.framework in Frameworks */,
+				38E11C9B11C2B8C700263771 /* MaxAPI.framework in Frameworks */,
+				38E11D3811C2D77000263771 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382C5C0610B5F11A0081E97D = {
+			isa = PBXGroup;
+			children = (
+				382C5C1C10B5F1670081E97D /* Source */,
+				382C5C2610B5F1820081E97D /* External Frameworks and Libraries */,
+				382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */,
+				382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */,
+				382C5C3810B5F1D70081E97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		382C5C1C10B5F1670081E97D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				38B4617B12F28A84006C84EC /* clFFT */,
+				38E11C9211C2B86800263771 /* gpu.ifft~.c */,
+				38A0A16F10B5FD3D00E4CF62 /* gpu.fft~.c */,
+			);
+			name = Source;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		382C5C2610B5F1820081E97D /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				38E11D3711C2D77000263771 /* OpenCL.framework */,
+				382C5C2D10B5F1CF0081E97D /* MaxAPI.framework */,
+				382C5C2E10B5F1CF0081E97D /* MaxAudioAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		382C5C3810B5F1D70081E97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				382C5C3710B5F1D70081E97D /* gpu.fft~.mxo */,
+				38E11C9F11C2B8C700263771 /* gpu.ifft~.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B4617B12F28A84006C84EC /* clFFT */ = {
+			isa = PBXGroup;
+			children = (
+				38E11D1A11C2D35C00263771 /* clFFT.h */,
+				38E11D1B11C2D35C00263771 /* fft_base_kernels.h */,
+				38E11D1C11C2D35C00263771 /* fft_execute.cpp */,
+				38E11D1D11C2D35C00263771 /* fft_internal.h */,
+				38E11D1E11C2D35C00263771 /* fft_kernelstring.cpp */,
+				38E11D1F11C2D35C00263771 /* fft_setup.cpp */,
+			);
+			name = clFFT;
+			path = ../Source/clFFT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		382C5C3610B5F1D70081E97D /* gpu.fft~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 382C5C3C10B5F1D80081E97D /* Build configuration list for PBXNativeTarget "gpu.fft~" */;
+			buildPhases = (
+				382C5C3310B5F1D70081E97D /* Resources */,
+				382C5C3410B5F1D70081E97D /* Sources */,
+				382C5C3510B5F1D70081E97D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gpu.fft~";
+			productName = "sa.gpu.fft~";
+			productReference = 382C5C3710B5F1D70081E97D /* gpu.fft~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+		38E11C9511C2B8C700263771 /* gpu.ifft~ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E11C9C11C2B8C700263771 /* Build configuration list for PBXNativeTarget "gpu.ifft~" */;
+			buildPhases = (
+				38E11C9611C2B8C700263771 /* Resources */,
+				38E11C9711C2B8C700263771 /* Sources */,
+				38E11C9911C2B8C700263771 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gpu.ifft~";
+			productName = "sa.gpu.fft~";
+			productReference = 38E11C9F11C2B8C700263771 /* gpu.ifft~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		382C5C0810B5F11A0081E97D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 382C5C0B10B5F11A0081E97D /* Build configuration list for PBXProject "gpu.fft~" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 382C5C0610B5F11A0081E97D;
+			productRefGroup = 382C5C3810B5F1D70081E97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B4618912F28AF1006C84EC /* All */,
+				382C5C3610B5F1D70081E97D /* gpu.fft~ */,
+				38E11C9511C2B8C700263771 /* gpu.ifft~ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		382C5C3310B5F1D70081E97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E11C9611C2B8C700263771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		382C5C3410B5F1D70081E97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A0A17010B5FD3D00E4CF62 /* gpu.fft~.c in Sources */,
+				38E11D2311C2D35C00263771 /* fft_execute.cpp in Sources */,
+				38E11D2411C2D35C00263771 /* fft_kernelstring.cpp in Sources */,
+				38E11D2511C2D35C00263771 /* fft_setup.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E11C9711C2B8C700263771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3833EB7311C56B7F00478CA2 /* gpu.fft~.c in Sources */,
+				38E11D2011C2D35C00263771 /* fft_execute.cpp in Sources */,
+				38E11D2111C2D35C00263771 /* fft_kernelstring.cpp in Sources */,
+				38E11D2211C2D35C00263771 /* fft_setup.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B4618D12F28AF7006C84EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E11C9511C2B8C700263771 /* gpu.ifft~ */;
+			targetProxy = 38B4618C12F28AF7006C84EC /* PBXContainerItemProxy */;
+		};
+		38B4618F12F28AF7006C84EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 382C5C3610B5F1D70081E97D /* gpu.fft~ */;
+			targetProxy = 38B4618E12F28AF7006C84EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		382C5C0910B5F11A0081E97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		382C5C0A10B5F11A0081E97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		382C5C3A10B5F1D80081E97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					FORWARD_EXTERNAL,
+					DEBUG,
+				);
+			};
+			name = Debug;
+		};
+		382C5C3B10B5F1D80081E97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = FORWARD_EXTERNAL;
+			};
+			name = Release;
+		};
+		38B4618A12F28AF1006C84EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		38B4618B12F28AF1006C84EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = All;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		38E11C9D11C2B8C700263771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1A10B5F15E0081E97D /* maxmspsdk-debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					INVERSE_EXTERNAL,
+					DEBUG,
+				);
+			};
+			name = Debug;
+		};
+		38E11C9E11C2B8C700263771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382C5C1B10B5F15E0081E97D /* maxmspsdk-release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = INVERSE_EXTERNAL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		382C5C0B10B5F11A0081E97D /* Build configuration list for PBXProject "gpu.fft~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382C5C0910B5F11A0081E97D /* Debug */,
+				382C5C0A10B5F11A0081E97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		382C5C3C10B5F1D80081E97D /* Build configuration list for PBXNativeTarget "gpu.fft~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382C5C3A10B5F1D80081E97D /* Debug */,
+				382C5C3B10B5F1D80081E97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B4619412F28B1A006C84EC /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B4618A12F28AF1006C84EC /* Debug */,
+				38B4618B12F28AF1006C84EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E11C9C11C2B8C700263771 /* Build configuration list for PBXNativeTarget "gpu.ifft~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E11C9D11C2B8C700263771 /* Debug */,
+				38E11C9E11C2B8C700263771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 382C5C0810B5F11A0081E97D /* Project object */;
+}
